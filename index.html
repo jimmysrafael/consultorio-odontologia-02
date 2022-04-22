@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DentalAm modelo 02</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- section -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>Dental</span>Am</a>
+
+    <nav class="navbar">
+        <a href="#home">Início</a>
+        <a href="#book">Consulta</a>
+        <a href="#packages">Planos</a>
+        <a href="#services">Serviços</a>
+        <a href="#gallery">Clínica</a>
+        <a href="#contact">Contato</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- login form -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Deixe seu sorriso mais brilhante</h3>
+        <p>Marque seu Horário</p>
+        <a href="#book" class="btn">Agendar</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-dent-01.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-dent-02.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-dent-03.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-dent-01.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- book -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>s</span>
+        <span>u</span>
+        <span>l</span>
+        <span>t</span>
+        <span>a</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/dent-test.jpg" alt="">
+        </div>
+
+        <form action="https://formsubmit.co/exemplo.consuljradsf@gmail.com" method="post">
+            <div class="inputBox">
+                <input type="hidden" name="_autoresponse"
+      value="Recebemos seu pedido de agendamento, logo entraremos em contato." />
+      <input type="hidden" name="_next" value="https://jimmysrafael.github.io/modelo-dentista-02/" />
+                <h3>Nome: </h3>
+                <input type="text" name="name" placeholder="Digite seu nome">
+            </div>
+            <div class="inputBox">
+                <h3>Telefone:</h3>
+                <input type="tel" name="tel" placeholder="Digite seu número">
+            </div>
+            <div class="inputBox">
+                <h3>Data</h3>
+                <input type="date" name="date">
+            </div>
+            <div class="inputBox">
+                <h3>Horário</h3>
+                <input type="time" name="time">
+            </div>
+            <input type="submit" class="btn" value="Agendar">
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- packages -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>l</span>
+        <span>a</span>
+        <span>n</span>
+        <span>o</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/clareamento.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-tooth"></i> clareamento </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#book" class="btn">marcar consulta</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/extracao.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-tooth"></i> extração </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#book" class="btn">marcar consulta</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/limpeza.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-tooth"></i> limpeza </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#book" class="btn">marcar consulta</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/implante.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-tooth"></i> implante </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#book" class="btn">marcar consulta</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/aparelho.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-tooth"></i> aparelho </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#book" class="btn">marcar consulta</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/prótese.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-tooth"></i> prótese </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#book" class="btn">marcar consulta</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>ç</span>
+        <span>o</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-teeth"></i>
+            <h3>aparelho</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-tooth"></i>
+            <h3>implante</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plus"></i>
+            <h3>Limpeza</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-teeth"></i>
+            <h3>manutenção</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-tooth"></i>
+            <h3>prótese</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plus"></i>
+            <h3>Clareamento</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery -->
+
+ <section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>l</span>
+        <span>í</span>
+        <span>n</span>
+        <span>i</span>
+        <span>c</span>
+        <span>a</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/clinic-01.jpg" alt="">
+            <div class="content">
+                <h3>consultório 01</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#book" class="btn">Venha conhecer</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/clinic-02.jpg" alt="">
+            <div class="content">
+                <h3>consultório 02</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#book" class="btn">venha conhecer</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/clinic-04.jpg" alt="">
+            <div class="content">
+                <h3>consultório 03</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#book" class="btn">venha conhecer</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/clinic-03.jpg" alt="">
+            <div class="content">
+                <h3>sala de espera</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#book" class="btn">venha conhecer</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/clinic-05.jpg" alt="">
+            <div class="content">
+                <h3>sala de cirurgia</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#book" class="btn">venha conhecer</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/clinic-06.jpg" alt="">
+            <div class="content">
+                <h3>Clínica</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a href="#book" class="btn">venha conhecer</a>
+            </div>
+        </div>
+
+    </div>
+
+</section> 
+
+<!-- review -->
+
+<!-- <section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1> 
+
+     <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic1.png" alt="">
+                    <h3>john deo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic2.png" alt="">
+                    <h3>john deo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic3.png" alt="">
+                    <h3>john deo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic4.png" alt="">
+                    <h3>john deo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section> -->
+
+<!-- contact -->
+
+ <section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>t</span>
+        <span>o</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/pic1.png" alt="">
+        </div>
+
+        <form action="https://formsubmit.co/exemplo.consuljradsf@gmail.com" method="post">
+            <div class="inputBox">
+                <input type="hidden" name="_autoresponse"
+                value="Recebemos seu sua mensagem, logo entraremos em contato." />
+                <input type="hidden" name="_next" value="https://jimmysrafael.github.io/modelo-dentista-02/" />
+                <input type="text" name="name" placeholder="Nome">
+                <input type="email" name="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <input type="tel" name="tel" placeholder="Telefone">
+                <input type="text" name="assunto" placeholder="Assunto">
+            </div>
+            <textarea placeholder="Escreva sua mensagem" name="mensagem" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="enviar">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- brand -->
+<!-- <section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="#" alt=""></div>
+            <div class="swiper-slide"><img src="#" alt=""></div>
+            <div class="swiper-slide"><img src="#" alt=""></div>
+            <div class="swiper-slide"><img src="#" alt=""></div>
+            <div class="swiper-slide"><img src="#" alt=""></div>
+            <div class="swiper-slide"><img src="#" alt=""></div>
+        </div>
+    </div>
+
+</section> -->
+
+<!-- footer -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Sobre nós</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas magni pariatur est accusantium voluptas enim nemo facilis sit debitis.</p>
+        </div>
+        <div class="box">
+            <h3>Locais de Filiais</h3>
+            <a href="#">Alvorada</a>
+            <a href="#">Japiim</a>
+            <a href="#">Compensa</a>
+            <a href="#">Petropolis</a>
+        </div>
+        <div class="box">
+            <h3>links rápidos</h3>
+            <a href="#">início</a>
+            <a href="#">consulta</a>
+            <a href="#">planos</a>
+            <a href="#">serviços</a>
+            <a href="#">clínica</a>
+            <a href="#">contato</a>
+        </div>
+        <div class="box">
+            <h3>Siga-nos</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> criado por <span> Jimmys Rafael </span> | Modelo </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- js link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
